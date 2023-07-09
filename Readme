@@ -1,5 +1,9 @@
 Tech Mahindra Internship Project Under Prajakta Ma'am
 
-Project Title: Hugging Face Falcon LLM Models
+Project Title: Implementing a context based Question-Answering Model
 
-Implement a context based Question-Answering Model
+    Using Hugging Face Open Source Falcon LLM Models
+    Models used are :
+          1) distilbert-base-uncased-distilled-squad and its locally stored version
+          2) deepset/roberta-base-squad2
+
