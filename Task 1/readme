@@ -1,0 +1,11 @@
+There are multiple versions of the Question Answering Model - distilBert
+
+Using pipeline method
+
+Using transormer library's direct Model access - AutoModelforQuestionAnswering
+
+Local execution files - in both .pynb and .py formats
+    -> also allow user to enter context and question
+
+there is also a falcon app based version for context-based QnA
+    -> for which the post queries have differnt .py code files named - queries.py and mikePassageQuery.py 
