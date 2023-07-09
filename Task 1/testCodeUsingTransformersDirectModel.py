@@ -7,7 +7,7 @@ class QASystem:
         # Load the pre-trained QA model with a larger maximum sequence length# self.tokenizer = AutoTokenizer.from_pretrained('distilbert-base-uncased-distilled-squad', truncation=True, max_length=512)
         # self.model = AutoModelForQuestionAnswering.from_pretrained('distilbert-base-uncased-distilled-squad', trust_remote_code=True)
 
-
+        # the model weights for distil bert mode should already be downloaded in the "./distilbert" directory
         self.tokenizer = AutoTokenizer.from_pretrained('./distilbert', truncation=True, max_length=512)
         self.model = AutoModelForQuestionAnswering.from_pretrained('./distilbert', trust_remote_code=True)
 
